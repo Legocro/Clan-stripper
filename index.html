@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clan Stripper</title>
+	<link rel="icon" type="image/png" href="">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="textarea.css">
+	<script type="text/javascript" src="https://cdn.rawgit.com/nodeca/pako/7abdb13e/dist/pako.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/md5.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div id="stuff">	
+		<h3>Clan and email stripper for Clicker Heroes</h3>
+		<p>Note: this will remove your email, id and password from your save, removing you from the clan and making the save safely shareable.</p>
+		<textarea onfocus="this.select()" id="input" placeholder="Save with clan"></textarea>
+		<button id="main">Encode</button>
+		<textarea onfocus="this.select()" id="output" placeholder="Save without clan"></textarea>
+	</div>
+</body>
+</html>
