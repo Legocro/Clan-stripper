@@ -1,5 +1,6 @@
 textarea {
   overflow: hidden;
+  resize: none;
   height: 200px;
   width: 300px
   -moz-border-bottom-colors: none;
