@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clan Stripper</title>
+	<meta property="og:url" content="https://legocro.github.io/Clan-stripper/">
+	<meta property="og:title" content="Clicker Heroes email/clan stripper">
+	<meta property="og:description" content="A tool used to remove email and clan info from your save">
+	<meta property="og:image" content="https://abload.de/img/moeru5qpd8.png">
+	<meta property="og:image:width" content="1024">
+	<meta property="og:image:height" content="1024">
+	<meta property="og:image:alt" content="Hail Moeru">
+	<meta property="og:color" content="#c5be06">
+	<link rel="icon" type="image/png" href="https://abload.de/img/moeru5qpd8.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="textarea.css">
+    <script type="text/javascript" src="https://cdn.rawgit.com/nodeca/pako/7abdb13e/dist/pako.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/md5.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-104772074-2', 'auto');
+  ga('send', 'pageview');
+    </script>
+</head>
+<body>
+	<div id="stuff">	
+		<h3>Clan and email stripper for Clicker Heroes</h3>
+		<p>Note: this will remove your email, id and password from your save, removing you from the clan and making the save safely shareable.</p>
+		<textarea onfocus="this.select()" id="input" placeholder="Save with clan"></textarea>
+		<button id="main">Encode</button>
+		<textarea onfocus="this.select()" id="output" placeholder="Save without clan"></textarea>
+	</div>
+</body>
+</html>
