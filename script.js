@@ -86,6 +86,7 @@ function wipe(data) {
     data.accountId = 0;
     data.loginValidated = "false";
     data.uniqueId = "";
+    data.subscribeEmail = "";
     data.type = undefined;
     delete data.type;
     console.log(`Wiped:` , data);
