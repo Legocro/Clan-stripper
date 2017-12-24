@@ -81,12 +81,12 @@ function wipe(data) {
     data.type = "kappa";
     data.email = "";
     data.passwordHash = "";
-    data.prevLoginTimestamp = 0;
+    data.prevLoginTimestamp = null;
     data.account = null;
     data.accountId = 0;
     data.loginValidated = "false";
     data.uniqueId = "";
-    data.subscribeEmail = "";
+    data.subscribedEmail = "";
     data.type = undefined;
     delete data.type;
     console.log(`Wiped:`, data);
